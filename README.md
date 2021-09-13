@@ -8,6 +8,9 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
 
  ![](simulation/day1/A1.PNG)
   - MOSFET has four terminals G= GATE D= DRAIN S=SOURCE B=BODY
+  - Gate oxide is made up of SiO2 layer that acts as insolation.
+  - Metal gate is place over the gate oxide layer 
+  - it has a P-type Substrate
 - Regions of operation & conditions needed to operate in the region
 - Drain current Equation models for different Region of operation 
 - Effects of Velocity Saturation Effect & plot
