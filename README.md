@@ -34,6 +34,7 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
   
   ![](simulation/day1/A4_1.PNG)
   
+  Approximating (Vds^2)/2 = 0. As it is negligible.
   ![](simulation/day1/A4_2.PNG)
   
 - Drain current Equation models for different Region of operation 
