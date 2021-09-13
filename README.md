@@ -29,7 +29,7 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
   In the absence of Vsb, the threshold value Vt becomes Vto (Vt = Vto) but in the presence of Vsb, the threshold value of Nmos is increased to Vto+V1. **_At Cutoff Region, Vgs<=Vt & Id=0_**
   
   -**_Linear region_**
-  When Vgs is increased slightly beyond Vt (**_Vgs >= Vt_**). The MOSFET enters Linear or Resistive region.On providing Vsb Drain current starts to flow from source to  drain. 
+  When Vgs is increased slightly beyond Vt (**_Vgs >= Vt_**). The MOSFET enters Linear or Resistive region.On providing voltagr Vsb, Drain current starts to flow from source to  drain & it increases with increase in Vds. 
   **The Drain current was derived to be** 
   
   ![](simulation/day1/A4_1.PNG)
@@ -37,6 +37,19 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
   Approximating (Vds^2)/2 = 0. As it is negligible.
   
   ![](simulation/day1/A4_2.PNG)
+  
+  -**_Saturation region_**
+   When Vds is increased above (Vgs-Vt),**Vds >= (Vgs-Vt)** Mosfet enters into Saturation Region.The Drain Current does not increase with Vds & reaches steady value.
+   Here in the below example we assume Vgs = 1v , Vds = 0.05v , Vt = 0.45v for the MOSFET.let us analyse for various Vds Values
+   
+   ![](simulation/day1/A5_0.PNG)
+   
+   The drain current equation is derived to be
+   
+   ![](simulation/day1/A5_1.PNG)
+   
+   
+   
   
 - Drain current Equation models for different Region of operation 
 - Effects of Velocity Saturation Effect & plot
