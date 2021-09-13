@@ -11,7 +11,11 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
   - Gate oxide is made up of SiO2 layer that acts as insolation.
   - Metal gate is place over the gate oxide layer 
   - it has a P-type Substrate
-- Regions of operation & conditions needed to operate in the region
+- ### **_1.2 Regions of operation & conditions needed to operate in the region_**
+  - Typically MOSFET has three regions of operation 
+    - Cutoff region
+    - linear region
+    - Saturation region
 - Drain current Equation models for different Region of operation 
 - Effects of Velocity Saturation Effect & plot
 - Introduction to SPICE Simulation ,Netlist,Technology parameters,SPICE commands.
