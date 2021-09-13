@@ -23,6 +23,8 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
   - Cutoff region
   ![](simulation/day1/A2.PNG)
   
+  ![](simulation/day1/A3.PNG)
+  
   Vt - threshold voltage is the minimum Vgs voltage at which strong inversion occurs & contionuous n-channel is formed between source to drain.
   In the absence of Vsb, the threshold value Vt becomes Vto (Vt = Vto) but in the presence of Vsb, the threshold value of Nmos is increased to Vto+V1. **_At Cutoff Region, Vgs<=Vt_**
   
