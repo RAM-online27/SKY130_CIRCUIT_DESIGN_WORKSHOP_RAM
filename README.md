@@ -57,7 +57,7 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
    
    ![](simulation/day1/A7_0.PNG)
    
-   ![](simulation/day1/L1.PNG)
+   ![](simulation/day1/L1.png)
    
   
    
