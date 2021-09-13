@@ -5,7 +5,7 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
 ## **_Summary of the 5 Day Workshop-Daywise_**
 ### **_Day 1:Intoduction to MOSFET & Spice Simulation_**
 - • MOSFET(NMOS,PMOS) Construction & Its working was discussed.
- ![](simulation/day1/A1.png)
+ ![](simulation/day1/A1.PNG)
 - • Regions of operation & conditions needed to operate in the region
 - • Drain current Equation models for different Region of operation 
 - • Effects of Velocity Saturation Effect & plot
