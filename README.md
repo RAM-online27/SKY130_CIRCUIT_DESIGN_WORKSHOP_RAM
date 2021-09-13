@@ -20,13 +20,15 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
     - Linear or Resistive region
     - Saturation region
     
-  - Cutoff region
+  - **_Cutoff region_**
   ![](simulation/day1/A2.PNG)
   
   ![](simulation/day1/A3.PNG)
   
   Vt - threshold voltage is the minimum Vgs voltage at which strong inversion occurs & contionuous n-channel is formed between source to drain.
-  In the absence of Vsb, the threshold value Vt becomes Vto (Vt = Vto) but in the presence of Vsb, the threshold value of Nmos is increased to Vto+V1. **_At Cutoff Region, Vgs<=Vt_**
+  In the absence of Vsb, the threshold value Vt becomes Vto (Vt = Vto) but in the presence of Vsb, the threshold value of Nmos is increased to Vto+V1. **_At Cutoff Region, Vgs<=Vt & Id=0_**
+  
+  - Linear region
   
 - Drain current Equation models for different Region of operation 
 - Effects of Velocity Saturation Effect & plot
