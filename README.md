@@ -51,12 +51,19 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
    ![](simulation/day1/A5_1.PNG)
    
   
- ### **_1.2 SPICE SIMULATION_**
-   
+ ### **_1.3 SPICE SIMULATION_**
+   - An Introduction to SPICE SIMULATION was provided. Here we learnt about
+     - Technology parameters (provided by foundry technology)
+     - Netlist
+     - Spice commands
+    These are provided as inputs to SPICE SIMUHLATION Software.The software simulates with the help of inputs & provides us neccessary characteristic.
+    
    ![](simulation/day1/A6_1.PNG)
    
+   The Netlist is used to decribe the cicuit.
    ![](simulation/day1/A7_0.PNG)
    
+   The Typical Charactristic plot of NMOS was simulated using SPICE Software.  
    ![](simulation/day1/L1.png)
    
   
