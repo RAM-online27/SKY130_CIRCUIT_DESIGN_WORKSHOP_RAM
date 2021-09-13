@@ -30,8 +30,10 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
   
   -**_Linear region_**
   When Vgs is increased slightly beyond Vt (**_Vgs >= Vt_**). The MOSFET enters Linear or Resistive region.On providing Vsb Drain current starts to flow from source to  drain. 
-  **The Drain current was derived to be ** 
+  **The Drain current was derived to be** 
+  
   ![](simulation/day1/A4_1.PNG)
+  
   ![](simulation/day1/A4_2.PNG)
   
 - Drain current Equation models for different Region of operation 
