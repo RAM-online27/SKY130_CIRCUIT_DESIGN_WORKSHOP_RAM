@@ -1,2 +1,2 @@
 # SKY130 CMOS CIRCUIT DESIGN & SPICE SIMULATION
-![](CMOS-Workshop-Banner.jpg)
+![](simulation/Banner.jpg)
