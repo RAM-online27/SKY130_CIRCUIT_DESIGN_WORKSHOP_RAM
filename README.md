@@ -5,17 +5,21 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
 ## **_Summary of the 5 Day Workshop-Daywise_**
 ## **_Day 1:Intoduction to MOSFET & Spice Simulation_**
 - ### **_1.1 MOSFET(NMOS)BASICS_**.
+  
+    
 
  ![](simulation/day1/A1.PNG)
-  - MOSFET has four terminals G= GATE D= DRAIN S=SOURCE B=BODY
-  - Gate oxide is made up of SiO2 layer that acts as insolation.
-  - Metal gate is place over the gate oxide layer 
-  - it has a P-type Substrate
+  - NMOS Construction  
+    - MOSFET has four terminals G= GATE D= DRAIN S=SOURCE B=BODY
+    - Gate oxide is made up of SiO2 layer that acts as insolation.
+    - Metal gate is place over the gate oxide layer 
+    - it has a P-type Substrate  
 - ### **_1.2 Regions of operation & conditions needed to operate in the region_**
   - Typically MOSFET has three regions of operation 
     - Cutoff region
     - Linear or Resistive region
     - Saturation region
+    
   - Cutoff region
   ![](simulation/day1/A2.PNG)
   
