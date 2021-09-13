@@ -39,10 +39,12 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
   ![](simulation/day1/A4_2.PNG)
   
   -**_Saturation region_**
-   When Vds is increased above (Vgs-Vt),**Vds >= (Vgs-Vt)** Mosfet enters into Saturation Region.The Drain Current does not increase with Vds & reaches steady value.
+   When Vds is increased above (Vgs-Vt), **[Vds >= (Vgs-Vt)]** Mosfet enters into Saturation Region.The Drain Current does not increase with Vds & reaches steady value.
    Here in the below example we assume Vgs = 1v , Vds = 0.05v , Vt = 0.45v for the MOSFET.let us analyse for various Vds Values
    
    ![](simulation/day1/A5_0.PNG)
+   
+   Here we can observe, as **Vgs-Vds >= Vt** ,the NMOS enters Saturation region.
    
    The drain current equation is derived to be
    
