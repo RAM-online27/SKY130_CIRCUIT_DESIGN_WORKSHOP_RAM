@@ -28,7 +28,11 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
   Vt - threshold voltage is the minimum Vgs voltage at which strong inversion occurs & contionuous n-channel is formed between source to drain.
   In the absence of Vsb, the threshold value Vt becomes Vto (Vt = Vto) but in the presence of Vsb, the threshold value of Nmos is increased to Vto+V1. **_At Cutoff Region, Vgs<=Vt & Id=0_**
   
-  - Linear region
+  -**_Linear region_**
+  When Vgs is increased slightly beyond Vt (**_Vgs >= Vt_**). The MOSFET enters Linear or Resistive region.On providing Vsb Drain current starts to flow from source to  drain. 
+  **The Drain current was derived to be ** 
+  ![](simulation/day1/A4_1.PNG)
+  ![](simulation/day1/A4_2.PNG)
   
 - Drain current Equation models for different Region of operation 
 - Effects of Velocity Saturation Effect & plot
