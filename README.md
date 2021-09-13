@@ -14,8 +14,11 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
 - ### **_1.2 Regions of operation & conditions needed to operate in the region_**
   - Typically MOSFET has three regions of operation 
     - Cutoff region
-    - linear region
+    - Linear or Resistive region
     - Saturation region
+  - Cutoff region
+  ![](simulation/day1/A2.PNG)
+  
 - Drain current Equation models for different Region of operation 
 - Effects of Velocity Saturation Effect & plot
 - Introduction to SPICE Simulation ,Netlist,Technology parameters,SPICE commands.
