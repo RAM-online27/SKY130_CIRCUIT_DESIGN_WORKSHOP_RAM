@@ -129,13 +129,62 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
      
   -  ![](simulation/day3/A2.PNG)
      - CMOS Voltage transfer characteristics is finally plotted from load curves of NMOS & PMOS.
-    
-    
+     - Vm is the Switching Threshold voltage at which Vin=Vout.
+
+## **_Day 3:CMOS_Characteristics & Effects of varying PMOS Channel width**
+
+- ### **_3.1 Channel width variation of PMOS affects Switching threshold voltage _**.  
+
+  -  ![](simulation/day3/A1.PNG) 
+     - We have transfer characteristic curves of CMOS with lesser channel width on left & CMOS with higher channel width on right.
+     - We can observe that the Switching Threshold voltage is shifted towards right.
+       
+  -  ![](simulation/day3/L1.PNG)
+     - Voltage transfer characteristics of CMOS is simulated using Spice & Switching threshold voltage (Vin = Vout = Vm) is obtained from the plot.
+     
+  -  ![](simulation/day3/A3.PNG)
+     - From the above Equation, Switching threhold voltage can be calculated mathematically for a given set of parameters. 
   
+- ### **_3.2 Channel width variation of PMOS affects Delay time _**.
+
+  -  ![](simulation/day3/L2.PNG)
+     - A pulse of peak 2.5V,time period - 2ns,Ton - 1ns is supplied at Vin. & th corresponding Vout response was plotted in this curve using Spice Simulation.
+     - Blue waveform depicts Vin & ref waveform depicts Vout.
+     - Rise delay = (Time at which Vin rises to 50%(1.25V) of peak time - Time at which Vout rises to 50%(1.25V) of its peak value)
+     - Fall delay = (Time at which Vin falls to 50%(1.25V) of peak time - Time at which Vout falls to 50%(1.25V) of its peak value)
+     
+  -  ![](simulation/day3/A4.PNG)
+     - This table depicts the variation of Switching threshold voltage (Vm),Delay time (Rise & fall delay) with respect to variation in PMOS Channel width variation.
+     - As PMOS channel width is increased,Switching threshold voltage (Vm) & FAll delay increases.
+     - But When PMOS channel width is decreased, Rise delay decreases drastically.
+     
+## **_Day 4: Effects of varying PMOS Channel width on Noise margin**
+
+- ### **_3.1 Ideal Characteristics of Inverter _**.
+  -   ![](simulation/day4/A1.PNG)
+     
+   
      
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
-   
+ 
+  
   
 - Drain current Equation models for different Region of operation 
 - Effects of Velocity Saturation Effect & plot
