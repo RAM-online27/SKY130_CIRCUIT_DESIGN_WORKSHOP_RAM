@@ -89,7 +89,18 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
   - ![](simulation/day2/A5.PNG)
     - hence for Mosfet with Shorter nodes, there exist 4 Regions of operation as compared to Mosfet with Longer nodes which has only three regions of operation
     - The Drain current is also modified to account for the Velocity saturation Effect.(Vdsat is a Technology parameter provided by the foundry).
-   
+    
+- ### **_2.3 Introduction To CMOS Logic_**.
+  -  ![](simulation/day2/B1.PNG)
+     - This is the CMOS logic for the inverter.It is the Series arrangement of PMOS & NMOS,with Drains of the mosfets tied together 
+     - Vgsp - Gate to source voltage of PMOS
+     - Vdsp - Drain to source voltage of PMOS 
+     - Vgsn - Gate to source voltage of NMOS
+     - Vdsn - Drain to source voltage of NMOS
+     - Vin - Input voltage to CMOS. it is the potential driven at Gate terminals of both NMOS & PMOS.
+     - Vout - Output voltage provided to the load.
+     - CL   - equivalent capacitance appearing at the load terminals.
+
    
    
   
