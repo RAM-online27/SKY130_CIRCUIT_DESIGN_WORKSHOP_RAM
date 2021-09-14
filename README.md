@@ -160,12 +160,12 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
      
 ## **_Day 4: Effects of varying PMOS Channel width on Noise margin_**
 
-- ### **_3.1 Ideal Characteristics of Inverter_**.
+- ### **_4.1 Ideal Characteristics of Inverter_**.
   -   ![](simulation/day4/A1.PNG)
   -   In this plot we could observe that Switching from ON to OFF happens when Vin is 50% of Vout.
   -   The ideal Characteristics is shown on left whereas Semi-ideal characteristics of inverter is shown on right.
   
-- ### **_3.2 Characteristics of CMOS Inverter_**.
+- ### **_4.2 Characteristics of CMOS Inverter_**.
   -   ![](simulation/day4/A2.PNG)
   -   In this plot we could observe that At SLope of -1, x-axis cordinates obtained are Vih & Vil.
   -   Vih < Voh , as the output should be high enough to set logic 1 at input of next inveter connected.
@@ -173,8 +173,19 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
   
   -   ![](simulation/day4/A3.PNG)
   -   In this image, parameters are plotted on the number line to compare their magnitudes.
-  -   Voh > Vih > Vil > Vol .This is the condition necessary for operation of inverter.  
+  -   Voh > Vih > Vil > Vol .This is the condition necessary for operation of inverter.
+  
+- ### **_4.3 Channel width variation of PMOS affects Noise margin _**  
+  -   ![](simulation/day4/A4.PNG)
+  -   In this table,we can observe that as channel width of PMOS is increased,Noise margin Nmh increases & Noise margin Nml decreases
    
+  -   ![](simulation/day4/L1.PNG)
+  -   WE have simulated the voltage transfer characteristics of CMOS inverter & found the Noise margin (Nmh & Nml)
+  -   Generally Digital design is cariied out in the Region of Nmh & Nml. & Analog design is carried out in the range between Vih & Vil.
+
+## **_Day 5: Variation of power supply(Vdd) to CMOS & its Effect on Voltage transfer characteristics (Vout vs Vin)_**
+
+ - ### **_5.1 Ideal Characteristics of Inverter_**.
      
    
      
