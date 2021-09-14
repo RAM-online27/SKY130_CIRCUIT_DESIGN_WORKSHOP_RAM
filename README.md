@@ -69,13 +69,20 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
    ![](simulation/day1/L1.png)
    
   
-## **_Day 2:Effect of Voltge Saturation Effect & Introduction to CMOS_**
+## **_Day 2:Effects of Voltge Saturation Effect & Introduction to CMOS_**
 - ### **_2.1 Velocity Saturation Effect_**.
-- ![](simulation/day2/A1.PNG)
-- 
 
-  
-   
+  - ![](simulation/day2/A4.PNG)
+  - Velocity saturation effect is one of the short channel effect.it is predominant in MOSFET having short channel length ( L<= 0.25u).
+  - From the plot ,we coul observe that as Electric field is increased beyond a certain point, the Voltage does not increase & saturates to a steady value.
+  - 
+- ### **_2.2 Effects of Velocity Saturation Effect_**.
+
+  - ![](simulation/day2/A1.PNG)
+  - In this (Id vs Vds) graph we could see that in longer nodes the variation of drain current with respect to Vgs is of Quadratic nature & in shorter nodes the variation        drain current with respect to Vgs is of Linear nature.
+
+  - ![](simulation/day2/A2.PNG)
+  - In this (Id vs Vgs) graph, the Quadaratic increase of drain current with respect to Vgs for longer nodes is shown on the left.the linear increase of drain current with respect to Vgs for shorteer nodes is shown on the right.
    
    
   
