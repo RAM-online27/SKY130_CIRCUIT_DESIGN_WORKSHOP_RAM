@@ -79,12 +79,12 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
 - ### **_2.2 Effects of Velocity Saturation Effect_**.
 
   - ![](simulation/day2/A1.PNG)
-  - In this (Id vs Vds) graph we could see that in longer nodes the variation of drain current with respect to Vgs is of Quadratic nature & in shorter nodes the variation        drain current with respect to Vgs is of Linear nature.
+     - In this (Id vs Vds) graph we could see that in longer nodes the variation of drain current with respect to Vgs is of Quadratic nature & in shorter nodes the variation        drain current with respect to Vgs is of Linear nature.
 
 
 
   - ![](simulation/day2/A2.PNG)
-  - In this (Id vs Vgs) graph, the Quadaratic increase of drain current with respect to Vgs for longer nodes is shown on the left.the linear increase of drain current with respect to Vgs for shorteer nodes is shown on the right.
+    - In this (Id vs Vgs) graph, the Quadaratic increase of drain current with respect to Vgs for longer nodes is shown on the left.the linear increase of drain current with respect to Vgs for shorteer nodes is shown on the right.
    
    
   
