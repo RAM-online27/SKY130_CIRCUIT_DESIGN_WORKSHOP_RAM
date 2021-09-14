@@ -89,6 +89,14 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
   - ![](simulation/day2/A5.PNG)
     - hence for Mosfet with Shorter nodes, there exist 4 Regions of operation as compared to Mosfet with Longer nodes which has only three regions of operation
     - The Drain current is also modified to account for the Velocity saturation Effect.(Vdsat is a Technology parameter provided by the foundry).
+
+  -  ![](simulation/day2/L1_1.png)  
+     - The (Id vs Vds) plot obtained through Simulation for MOSFET with Short Channel(L=0.25u).
+     - We can observe linear variation of drain current with respect to Vgs./  
+      
+  -   ![](simulation/day2/L1_2.png)
+      - The (Id vs Vgs) plot obtained through Simulation for MOSFET with Short Channel(L=0.25u).
+      - We can observe linear variation of drain current with respect to Vgs./  
     
 - ### **_2.3 Introduction To CMOS Logic_**.
   -  ![](simulation/day2/B1.PNG)
@@ -100,6 +108,24 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
      - Vin - Input voltage to CMOS. it is the potential driven at Gate terminals of both NMOS & PMOS.
      - Vout - Output voltage provided to the load.
      - CL   - equivalent capacitance appearing at the load terminals.
+     - Vss -  Ground teriminal
+     - Vdd -  Supply voltage for NMOS/
+    
+  -  ![](simulation/day2/B2.PNG)
+     - Typical inverter logic is : if Vin = High , then Vout = Low & if Vin = Low , then Vout = high. 
+     - In the image on the left, We can observe that Equivalent circuit for Vin=Vdd & Vout=0 (PMOS in OFF state & NMOS in ON state)
+     - In the image on the right,We can observe that Equivalent circuit for Vin=0 & Vout=Vdd (PMOS in ON state & NMOS in OFF state)/
+     
+  -  ![](simulation/day2/B3_1.PNG)
+     - From Observations, Voltage & current Equations for NMOS & PMOS are derived from CMOS circuit.
+     - (Id vs Vds) curves are plotted for Both NMOS & PMOS separately/
+
+  -  ![](simulation/day2/B6.PNG)
+     - With the help of equations & (Id vs Vds) curves, the load curves of NMOS & PMOS are plotted as shown above.
+     - We obtained this load ,so as understand the CMO characteristic in terms of Vin & Vout.( dependency of Vgsn, Vdsn, Vgsp, Vdsp are elimiated in this plot)/
+   
+  
+     
 
    
    
