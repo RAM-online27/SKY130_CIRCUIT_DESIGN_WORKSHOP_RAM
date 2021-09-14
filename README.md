@@ -21,22 +21,22 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
     - Saturation region
     
   - **_Cutoff region_**
-  ![](simulation/day1/A2.PNG)
+    - ![](simulation/day1/A2.PNG)
   
-  ![](simulation/day1/A3.PNG)
+    - ![](simulation/day1/A3.PNG)
   
   Vt - threshold voltage is the minimum Vgs voltage at which strong inversion occurs & contionuous n-channel is formed between source to drain.
   In the absence of Vsb, the threshold value Vt becomes Vto (Vt = Vto) but in the presence of Vsb, the threshold value of Nmos is increased to Vto+V1. **_At Cutoff Region, Vgs<=Vt & Id=0_**
   
   -**_Linear region_**
-  When Vgs is increased slightly beyond Vt (**_Vgs >= Vt_**). The MOSFET enters Linear or Resistive region.On providing voltagr Vsb, Drain current starts to flow from source to  drain & it increases with increase in Vds. 
+    - When Vgs is increased slightly beyond Vt (**_Vgs >= Vt_**). The MOSFET enters Linear or Resistive region.On providing voltagr Vsb, Drain current starts to flow from source to  drain & it increases with increase in Vds. 
   **The Drain current was derived to be** 
   
-  ![](simulation/day1/A4_1.PNG)
+    - ![](simulation/day1/A4_1.PNG)
   
   Approximating (Vds^2)/2 = 0. As it is negligible.
   
-  ![](simulation/day1/A4_2.PNG)
+    - ![](simulation/day1/A4_2.PNG)
   
   -**_Saturation region_**
    When Vds is increased above (Vgs-Vt), **[Vds >= (Vgs-Vt)]** Mosfet enters into Saturation Region.The Drain Current does not increase with Vds & reaches steady value.
@@ -68,6 +68,12 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
    
    ![](simulation/day1/L1.png)
    
+  
+## **_Day 2:Effect of Voltge Saturation Effect & Introduction to CMOS_**
+- ### **_2.1 Velocity Saturation Effect_**.
+- ![](simulation/day2/A1.PNG)
+- 
+
   
    
    
