@@ -84,7 +84,9 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
 
 
   - ![](simulation/day2/A2.PNG)
-    - In this (Id vs Vgs) graph, the Quadaratic increase of drain current with respect to Vgs for longer nodes is shown on the left.the linear increase of drain current with respect to Vgs for shorteer nodes is shown on the right.
+    - In this (Id vs Vgs) graph, the Quadaratic increase of drain current with respect to Vgs for longer nodes is shown on the left & The linear increase of drain current with respect to Vgs for shorteer nodes is shown on the right.
+   
+  - ![](simulation/day2/A5.PNG)
    
    
   
