@@ -87,6 +87,9 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
     - In this (Id vs Vgs) graph, the Quadaratic increase of drain current with respect to Vgs for longer nodes is shown on the left & The linear increase of drain current with respect to Vgs for shorteer nodes is shown on the right.
    
   - ![](simulation/day2/A5.PNG)
+    - hence for Mosfet with Shorter nodes, there exist 4 Regions of operation as compared to Mosfet with Longer nodes which has only three regions of operation
+    - The Drain current is also modified to account for the Velocity saturation Effect.(Vdsat is a Technology parameter provided by the foundry).
+   
    
    
   
