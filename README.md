@@ -158,10 +158,23 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
      - As PMOS channel width is increased,Switching threshold voltage (Vm) & FAll delay increases.
      - But When PMOS channel width is decreased, Rise delay decreases drastically.
      
-## **_Day 4: Effects of varying PMOS Channel width on Noise margin**
+## **_Day 4: Effects of varying PMOS Channel width on Noise margin_**
 
-- ### **_3.1 Ideal Characteristics of Inverter _**.
+- ### **_3.1 Ideal Characteristics of Inverter_**.
   -   ![](simulation/day4/A1.PNG)
+  -   In this plot we could observe that Switching from ON to OFF happens when Vin is 50% of Vout.
+  -   The ideal Characteristics is shown on left whereas Semi-ideal characteristics of inverter is shown on right.
+  
+- ### **_3.2 Characteristics of CMOS Inverter_**.
+  -   ![](simulation/day4/A2.PNG)
+  -   In this plot we could observe that At SLope of -1, x-axis cordinates obtained are Vih & Vil.
+  -   Vih < Voh , as the output should be high enough to set logic 1 at input of next inveter connected.
+  -   Vil > Vol , as the output should be low enough to set logic 0 at input of next inveter connected.
+  
+  -   ![](simulation/day4/A3.PNG)
+  -   In this image, parameters are plotted on the number line to compare their magnitudes.
+  -   Voh > Vih > Vil > Vol .This is the condition necessary for operation of inverter.  
+   
      
    
      
