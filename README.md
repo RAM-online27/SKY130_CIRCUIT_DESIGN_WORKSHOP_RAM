@@ -185,32 +185,29 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
 
 ## **_Day 5: Variation of power supply(Vdd) to CMOS & its Effect on Voltage transfer characteristics (Vout vs Vin)_**
 
- - ### **_5.1 Ideal Characteristics of Inverter_**.
-     
+ - ### **_5.1 Effect of Power supply(vdd)_**.
+   -   ![](simulation/day5/L3.PNG)  
+   -   ![](simulation/day5/L1.PNG)
+   -    Vdd is varied with a step of 0.5 V From 2.5V to 0.5V . The Voltage Transfer Characteristics is plotted by Sweeping Vin for each value of Vdd.
+   -    We could observe that shape of Curve is still intact but the the size of curve reduces.Vout vs Vin curves were simulated for a range of power supply Vdd(0.8           to 1.8v)
+   -    Red waveform - Vdd = 1.8v
+   -    Blue waveform - Vdd = 1.6v
+   -    yellow waveform - Vdd = 1.4v
+   -    green waveform - Vdd = 1.2v
+   -    white waveform - Vdd = 1.0v 
+   -    Brown waveform - Vdd = 0.8v
    
-     
+ - ### **_5.2 Advantages & disadvantages of Power supply(vdd) variation_**.
+   - Advantages of operating CMOS with minimum power supply over CMOS with standard power supply are Improved Gain, Reduced Energy consumption(90&) 
+   - But the performance (Rise & fall delay) is found to be poor during this study. & the Simulation results obtained using Spice were found to support the study.
+    
+    
+    
+    
+ ## **_References_**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- [https://github.com/kunalg123/sky130CircuitDesignWorkshop](https://github.com/kunalg123/sky130CircuitDesignWorkshop)
+- [https://www.vsdiat.com/](https://www.vsdiat.com/)
+- [https://www.vlsisystemdesign.com/](https://www.vlsisystemdesign.com/)
    
- 
   
-  
-- Drain current Equation models for different Region of operation 
-- Effects of Velocity Saturation Effect & plot
-- Introduction to SPICE Simulation ,Netlist,Technology parameters,SPICE commands.
-- Plot of Characteristic curves of MOSFET Simulated using SPICE. Emphasis was made on how to create Spice netlist, Spice commands & Technology parameters of MOSFET.
