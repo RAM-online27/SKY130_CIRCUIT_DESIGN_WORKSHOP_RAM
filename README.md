@@ -131,9 +131,9 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
      - CMOS Voltage transfer characteristics is finally plotted from load curves of NMOS & PMOS.
      - Vm is the Switching Threshold voltage at which Vin=Vout.
 
-## **_Day 3:CMOS_Characteristics & Effects of varying PMOS Channel width**
+## **_Day 3:CMOS_Characteristics & Effects of varying PMOS Channel width_**
 
-- ### **_3.1 Channel width variation of PMOS affects Switching threshold voltage _**.  
+- ### **_3.1 Channel width variation of PMOS affects Switching threshold voltage_**.  
 
   -  ![](simulation/day3/A1.PNG) 
      - We have transfer characteristic curves of CMOS with lesser channel width on left & CMOS with higher channel width on right.
@@ -145,7 +145,7 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
   -  ![](simulation/day3/A3.PNG)
      - From the above Equation, Switching threhold voltage can be calculated mathematically for a given set of parameters. 
   
-- ### **_3.2 Channel width variation of PMOS affects Delay time _**.
+- ### **_3.2 Channel width variation of PMOS affects Delay time_**.
 
   -  ![](simulation/day3/L2.PNG)
      - A pulse of peak 2.5V,time period - 2ns,Ton - 1ns is supplied at Vin. & th corresponding Vout response was plotted in this curve using Spice Simulation.
@@ -175,7 +175,7 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
   -   In this image, parameters are plotted on the number line to compare their magnitudes.
   -   Voh > Vih > Vil > Vol .This is the condition necessary for operation of inverter.
   
-- ### **_4.3 Channel width variation of PMOS affects Noise margin _**  
+- ### **_4.3 Channel width variation of PMOS affects Noise margin_**  
   -   ![](simulation/day4/A4.PNG)
   -   In this table,we can observe that as channel width of PMOS is increased,Noise margin Nmh increases & Noise margin Nml decreases
    
