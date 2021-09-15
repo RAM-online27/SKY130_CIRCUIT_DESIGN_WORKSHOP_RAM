@@ -123,7 +123,7 @@ In this 'CMOS CIRCUIT DESIGN & SPICE SIMULATION WORKSHOP' conducted by [VLSI Sys
      - In the image on the left, We can observe that Equivalent circuit for Vin=Vdd & Vout=0 (PMOS in OFF state & NMOS in ON state)
      - In the image on the right,We can observe that Equivalent circuit for Vin=0 & Vout=Vdd (PMOS in ON state & NMOS in OFF state)
      
-  -  ![](simulation/day2/B3_1.PNG)
+  -  ![](simulation/day2/B3_1.png)
      - From Observations, Voltage & current Equations for NMOS & PMOS are derived from CMOS circuit.
      - (Id vs Vds) curves are plotted for Both NMOS & PMOS separately
 
